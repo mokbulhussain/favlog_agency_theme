@@ -1,21 +1,40 @@
 /*
-@File: Favlog Agency Website.
-
-* This file contains the styling for the actual template, this
-is the file you need to edit to change the look of the
-template.
-
-This files table contents are outlined below>>>>>
-
-*******************************************
-*******************************************
-** - Default CSS
-** - Mobile Menu Style Area
-** - Preloader Style Area
-** - Nav style area CSS
+  Theme Name: Favlog - Agency HTML5 Template
+  Author: uiroll
+  Description: Favlog Agency  HTML5 Bootstrap 5 template.
+  Version: 1.0
 */
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. Preloader Style Area
+3. Navbar Area CSS
+4. Banner Area CSS
+5. Solution Area CSS
+6. About Area CSS
+7. Blog Area CSS
+8. Newsletter Area CSS
+9. Footer Area CSS
+10. About-Inner Area CSS
+11. Plan Area CSS
+12. Testimonial Area CSS
+13. funfacts-area Area CSS
+14. Team Area CSS
+15. Service-xontent Area CSS
+16. Conatact Area CSS
+17. Portfolio Area CSS
+18. Box Area CSS
+19. categories  Area CSS
+*/
+
+
+
+
+
+
 /*================================================
-Default CSS
+1. Theme default css
 =================================================*/
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;400;500;600;700&family=Poppins:wght@100;300;400;500;600;700&display=swap");
@@ -134,7 +153,7 @@ nav.fixed-top {
 }
 
 /*================================================
-Preloader Style Area
+2. Preloader Style Area
 =================================================*/
 .loader_bg {
   position: fixed;
@@ -343,7 +362,7 @@ Preloader Style Area
 }
 
 /*================================================
-Navbar Area CSS
+3. Navbar Area CSS
 =================================================*/
 .nav-wrapper .custom-nav {
   background: #3D44D9;
@@ -414,7 +433,7 @@ Navbar Area CSS
 
 
 /*================================================
-Banner Area CSS
+4. Banner Area CSS
 =================================================*/
 .banner-wrapper-area {
   padding: 100px 0px 100px 0px;
@@ -538,7 +557,7 @@ Banner Area CSS
 
 
 /*================================================
-Solution Area CSS
+5. Solution Area CSS
 =================================================*/
 @-webkit-keyframes moveBg {
   0% {
@@ -591,9 +610,6 @@ Solution Area CSS
   background: #f5f5f5;
 }
 
-
-/* 3. Header Client  Css */
-
 .brand-client{
   background-color: #FFFFFF;
   border-radius: 60px 20px 20px 20px;
@@ -612,6 +628,9 @@ Solution Area CSS
   margin-bottom: 50px;
   font-family: GilroySemiBold;
   line-height: 34px;
+}
+.brand-client-img {
+  margin-top: 20px;
 }
 
 .brand-client-img img {
@@ -716,7 +735,7 @@ Solution Area CSS
 }
 
 /*================================================
-About Area CSS
+6. About Area CSS
 =================================================*/
 @-webkit-keyframes IT_animation_3 {
   0% {
@@ -856,9 +875,6 @@ About Area CSS
 }
 
 
-/*================================================
-Service Area CSS
-=================================================*/
 @-webkit-keyframes IT_animation_4 {
   0% {
     -webkit-transform: translate(-300px, 151px) rotate(0);
@@ -965,7 +981,7 @@ Service Area CSS
 }
 
 /*================================================
-Blog Area CSS
+7.Blog Area CSS
 =================================================*/
 .blog-wrapper-area {
   padding: 80px 0px 80px 0px;
@@ -1025,7 +1041,6 @@ Blog Area CSS
 .blog-wrapper-area .blog-wrap .blog-box img {
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  height: 225px;
   width: 100%;
 }
 
@@ -1085,7 +1100,10 @@ Blog Area CSS
 
 
 
-/* Newsletter css */
+/*================================================
+8. Newsletter Area CSS
+=================================================*/
+
 section.newsletter {
   margin-top: 34px;
 }
@@ -1112,7 +1130,7 @@ section.newsletter {
 .subscribe-form form input {
   border: none;
   padding-left: 10px;
-  height: 60px;
+  height: 40px;
   width: 250px;
   background: transparent;
   /* border-radius: 22px; */
@@ -1150,7 +1168,7 @@ border-radius: 82px;
 
 
 /*================================================
-Footer Area CSS
+9. Footer Area CSS
 =================================================*/
 .footer-area {
   padding-top: 100px;
@@ -1424,16 +1442,12 @@ Footer Area CSS
 
 
 /*================================================
-About-Inner Area CSS
+10. About-Inner Area CSS
 =================================================*/
 .inner-page-top {
   padding: 80px 0px;
   background: #05356e;
-
 }
-
-
-
 .inner-page-top .inner-page-top-wrap {
   margin-top: 50px;
   text-align: center;
@@ -1466,7 +1480,7 @@ About-Inner Area CSS
 
 
 /*================================================
-Plan Area CSS
+11. Plan Area CSS
 =================================================*/
 .plan-area-wrapper {
   padding: 100px 0px 50px 0px;
@@ -1535,7 +1549,7 @@ Plan Area CSS
 }
 
 /*================================================
-Testimonial Area CSS
+12. Testimonial Area CSS
 =================================================*/
 .testimonial-wrapper-area {
   padding: 100px 0px 50px 0px;
@@ -1682,7 +1696,7 @@ Testimonial Area CSS
 }
 
 /*================================================
-funfacts-area Area CSS
+13. funfacts-area Area CSS
 =================================================*/
 .funfacts-area {
   padding: 100px 0px 50px 0px;
@@ -1698,15 +1712,6 @@ funfacts-area Area CSS
           transform: translateY(-50%);
 }
 
-.funfacts-area::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../images/map.png);
-}
 
 .funfacts-area .funfact {
   background-color: #fff;
@@ -1732,7 +1737,7 @@ funfacts-area Area CSS
 }
 
 /*================================================
-Team Area CSS
+14. Team Area CSS
 =================================================*/
 .team-wrapper-area {
   padding: 100px 0px 50px 0px;
@@ -1763,15 +1768,16 @@ Team Area CSS
 }
 
 .team-wrapper-area .team-wrap .team-title h2 {
-  background: -webkit-gradient(linear, left top, right top, from(#0077b6), to(#0096c7));
-  background: linear-gradient(to right, #0077b6, #0096c7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 34px;
+  color: #3d405b;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  line-height: 44px;
 }
 
 .team-wrapper-area .team-wrap .team-title p {
   font-size: 16px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .team-wrapper-area .team-wrap .single-team {
@@ -1809,7 +1815,7 @@ Team Area CSS
 
 .team-wrapper-area .team-wrap .single-team h3 {
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .team-wrapper-area .team-wrap .single-team p {
@@ -1832,10 +1838,10 @@ Team Area CSS
 }
 
 /*================================================
-Service-xontent Area CSS
+15. Service-xontent Area CSS
 =================================================*/
 .service-content-area {
-  padding: 100px 0px 50px 0px;
+  padding: 120px 0px 50px 0px;
 }
 
 .service-content-area .service-sidebar h4 {
@@ -1853,6 +1859,9 @@ Service-xontent Area CSS
 .service-content-area .service-sidebar .form-control:focus {
   color: #212529;
   background-color: #fff;
+}
+.process-bar-shape img {
+  width: 100%;
 }
 
 .service-content-area .menu-service ul li {
@@ -1892,6 +1901,7 @@ Service-xontent Area CSS
   padding: 30px 15px 37px 15px;
 }
 
+
 .service-content-area .service-content-box h3 {
   font-size: 30px;
   margin-bottom: 20px;
@@ -1900,10 +1910,26 @@ Service-xontent Area CSS
 .service-content-area .service-content-box p {
   font-size: 16px;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 .service-content-area .service-content-box .box-btn {
   margin-top: 35px;
+}
+.service-image img {
+  margin-left: 16px;
+}
+
+.service-content h4 {
+  font-size: 34px;
+  line-height: 44px;
+}
+
+.service-content p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 16px;
+  color: #3d405b;
 }
 
 .service-content-area .service-area .service-content {
@@ -1911,164 +1937,10 @@ Service-xontent Area CSS
   margin-top: 25px;
 }
 
-.project-wrapper-area-two {
-  padding: 100px 0px 100px 0px;
-}
 
-.project-wrapper-area-two .project-area {
-  background: #fff;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 25px;
-  border-radius: 5px;
-}
-
-.project-wrapper-area-two .project-area .em-bar-big {
-  height: 5px;
-  width: 90px;
-  background: #0077b6c4;
-  position: relative;
-  border-radius: 30px;
-}
-
-.project-wrapper-area-two .project-area .em-bar-big::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: -2.7px;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  background: #023e8a;
-  -webkit-animation: moveBg 5s infinite ease-in-out;
-          animation: moveBg 5s infinite ease-in-out;
-}
-
-.project-wrapper-area-two .project-area .form-control {
-  background-color: transparent;
-  border: 1px solid #cfcfcf;
-  -webkit-box-shadow: unset;
-  box-shadow: unset;
-  height: 50px;
-  border-radius: 0;
-  font-size: 16px;
-  margin-top: 20px;
-}
-
-.project-wrapper-area-two .project-area label {
-  font-size: 16px;
-  color: #606060;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  margin-top: 20px;
-}
-
-.project-wrapper-area-two .project-area .project-type {
-  margin-top: 30px;
-}
-
-.project-wrapper-area-two .project-area .project-type .field.clearfix {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin-left: -55px;
-}
-
-.project-wrapper-area-two .project-area .project-type h6 {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.project-wrapper-area-two .project-area .project-type p {
-  font-size: 16px;
-}
-
-.project-wrapper-area-two .project-area .range {
-  margin-top: 30px;
-}
-
-.project-wrapper-area-two .project-area .range h4 {
-  font-size: 20px;
-}
-
-.project-wrapper-area-two .project-area .range form {
-  margin-top: -15px;
-}
-
-.project-wrapper-area-two .project-area .range label {
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  color: #023e8a;
-}
-
-.project-wrapper-area-two .project-area .range input {
-  outline: none;
-  border: 1px solid #3d405b;
-  height: 50px;
-  padding-left: 10px;
-  border-radius: 5px;
-}
-
-.project-wrapper-area-two .project-area .about-project {
-  margin-top: 25px;
-}
-
-.project-wrapper-area-two .project-area .about-project h4 {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.project-wrapper-area-two .project-area .about-project textarea {
-  border: 1px solid #c8d1d7;
-  font-size: 14px;
-  line-height: 24px;
-  padding: 20px 15px;
-  width: 100%;
-  max-width: 100%;
-  border-radius: 3px;
-  height: 180px;
-  outline: none;
-}
-
-.project-wrapper-area-two .project-area .about-project input {
-  margin-top: 20px;
-  border: 1px solid #c8d1d7;
-  font-size: 22px;
-  line-height: 1.2;
-  padding: 21px 20px;
-  font-weight: 300;
-  width: 100%;
-  border-radius: 3px;
-  display: block;
-  outline: none;
-  margin-bottom: 20px;
-  font-family: "Poppins", sans-serif;
-}
-
-.project-wrapper-area-two .select input {
-  font-size: 16px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-}
-
-.project-wrapper-area-two .project-type-one {
-  margin-top: 25px;
-}
-
-.project-wrapper-area-two .project-type-one h6 {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-/*================================================
-Service-xontent Area CSS
-=================================================*/
 .project-wrapper-area {
   padding: 100px 0px 75px 0px;
-  background: url("../images/slider02.jpg");
+  background: url("../images/paralax/paralax.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2089,251 +1961,22 @@ Service-xontent Area CSS
   margin-top: 45px;
 }
 
-/*================================================
-admission-form-wrapper Area CSS
-=================================================*/
-.admission-form-wrapper {
-  padding: 100px 0px 100px 0px;
-}
 
-.admission-form-wrapper .ru-main {
-  margin-top: 5px;
-}
-
-.admission-form-wrapper .phone {
-  margin-top: 15px;
-}
-
-.admission-form-wrapper input.form-control {
-  margin-bottom: 15px;
-}
-
-.admission-form-wrapper .form-control {
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  color: #999;
-}
-
-.admission-form-wrapper .form-control:focus {
-  color: #212529;
-  background-color: #fff;
-}
-
-.admission-form-wrapper .form-box textarea#message {
-  margin-bottom: 20px;
-}
-
-.admission-form-wrapper .form-box .form-head {
-  margin-top: 20px;
-}
-
-.admission-form-wrapper .form-box .box {
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.admission-form-wrapper .form-box h3 {
-  margin-bottom: 20px;
-  text-align: center;
-}
 
 /*================================================
-Additionl Area CSS
-=================================================*/
-.additional-wrapper-area {
-  padding: 100px 0px 50px 0px;
-  background-color: #539cdb;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.additional-wrapper-area input:focus {
-  outline: none !important;
-}
-
-.additional-wrapper-area .reference {
-  margin-top: 30px;
-}
-
-.additional-wrapper-area .reference input {
-  margin-bottom: 15px;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  color: #999;
-}
-
-.additional-wrapper-area .admission-button {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 20px auto 0;
-}
-
-.additional-wrapper-area button:focus {
-  outline: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.additional-wrapper-area button {
-  background: #fff;
-  -webkit-transition: .4s;
-  transition: .4s;
-  border: 1px solid #fff;
-  color: #3d405b;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  border-radius: 30px;
-  padding: 12px 50px;
-}
-
-.additional-wrapper-area label {
-  margin-top: 20px;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  color: #fff;
-  margin-bottom: 20px;
-}
-
-/*================================================
-Procedure Area CSS
-=================================================*/
-.procedure-wrapper-area {
-  padding: 100px 0px 50px 0px;
-}
-
-.procedure-wrapper-area .nav-link.active {
-  background: #fff !important;
-  border: 1px solid #0077b6 !important;
-  color: #0077b6 !important;
-}
-
-.procedure-wrapper-area .nav-tabs {
-  border-bottom: none;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0 auto;
-}
-
-.procedure-wrapper-area .nav-tabs li {
-  margin-left: 10px;
-}
-
-.procedure-wrapper-area .nav-tabs .nav-link {
-  border: none;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  background: transparent;
-  border: 1px solid #0077b6;
-  color: #fff;
-  background: #0077b6;
-  padding: 12px 12px;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.procedure-wrapper-area .tab-pane {
-  border: 1px solid #0e2a47;
-  padding: 20px;
-  background: #fff;
-  margin-top: 20px;
-  border-radius: 10px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.procedure-wrapper-area .tab-pane h3 {
-  font-size: 30px;
-}
-
-.procedure-wrapper-area .tab-pane .em-bar-big {
-  height: 5px;
-  width: 90px;
-  background: #0077b6c4;
-  position: relative;
-  border-radius: 30px;
-}
-
-.procedure-wrapper-area .tab-pane .em-bar-big::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: -2.7px;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  background: #023e8a;
-  -webkit-animation: moveBg 5s infinite ease-in-out;
-          animation: moveBg 5s infinite ease-in-out;
-}
-
-.procedure-wrapper-area .tab-pane p {
-  font-size: 16px;
-  margin-top: 20px;
-}
-
-.procedure-wrapper-area .tab-pane ul {
-  margin: 15px 0 35px;
-}
-
-.procedure-wrapper-area .tab-pane ul li {
-  position: relative;
-  color: #828893;
-  margin-bottom: 15px;
-  padding-left: 30px;
-}
-
-.procedure-wrapper-area .tab-pane ul li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 6px;
-  width: 17px;
-  height: 17px;
-  background: #023e8a;
-  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-          clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
-
-.procedure-wrapper-area .tab-pane .sub-list li {
-  position: relative;
-}
-
-.procedure-wrapper-area .tab-pane .sub-list li::before {
-  -webkit-clip-path: ellipse(130px 140px at 10% 20%);
-          clip-path: ellipse(130px 140px at 10% 20%);
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 6px;
-  width: 10px;
-  height: 10px;
-  background: #3d405b;
-}
-
-/*================================================
-Procedure Area CSS
+16. Conatact Area CSS
 =================================================*/
 .contact-wrapper-area {
-  padding: 100px 0px 100px 0px;
-  background: #f1f0f8;
+  padding: 110px 0px 80px 0px;
+  background: #ffffff;
 }
 
 .contact-wrapper-area .contact-wrap .contact-information {
-  margin-top: 100px;
+  margin-top: 110px;
 }
 
 .contact-wrapper-area .contact-wrap .contact-information form {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .contact-wrapper-area .contact-wrap .contact-information form input {
@@ -2349,27 +1992,33 @@ Procedure Area CSS
 }
 
 .contact-wrapper-area .contact-wrap h5 {
-  background: -webkit-gradient(linear, left top, right top, from(#0077b6), to(#0096c7));
-  background: linear-gradient(to right, #0077b6, #0096c7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #3d44d9;
 }
 
 .contact-wrapper-area .contact-wrap h2 {
-  font-size: 38px;
-  margin-bottom: 20px;
+  font-size: 34px;
+  margin-bottom: 16px;
+  line-height: 44px;
+}
+.contact-newsletter{
+  margin-top: 70px !important;
 }
 
 .contact-wrapper-area .contact-wrap .contact-service {
   background: #fff;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 40px;
+  -webkit-box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  box-shadow: rgb(0 0 0 / 13%) 0px 3px 13px;
+  padding: 24px;
   border-radius: 5px;
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   margin-top: 30px;
+}
+.contact-content h4 {
+  font-size: 20px !important;
+  line-height: 30px;
 }
 
 .contact-wrapper-area .contact-wrap .contact-service:hover {
@@ -2403,7 +2052,7 @@ Procedure Area CSS
 
 .contact-wrapper-area .contact-wrap .contact-service .contact-content {
   margin-top: -35px;
-  padding-left: 55px;
+  padding-left: 44px;
 }
 
 .contact-wrapper-area .contact-wrap .contact-service .contact-content p a {
@@ -2420,217 +2069,16 @@ Procedure Area CSS
   margin-bottom: -8px;
 }
 
-/*================================================
-Course Area CSS
-=================================================*/
-.course-wrapper-area2 {
-  padding: 100px 0px 0px 0px;
-}
-
-.course-wrapper-area2 button {
-  border: none;
-}
-
-.course-wrapper-area2 #more {
-  display: none;
-}
-
-.course-wrapper-area2 #more1 {
-  display: none;
-}
-
-.course-wrapper-area2 #more2 {
-  display: none;
-}
-
-.course-wrapper-area2 #more3 {
-  display: none;
-}
-
-.course-wrapper-area2 #more4 {
-  display: none;
-}
-
-.course-wrapper-area2 .nav-link.active {
-  color: #023e8a !important;
-  border: 1px solid #023e8a !important;
-  background-color: #fff !important;
-}
-
-.course-wrapper-area2 .nav-tabs {
-  display: block;
-  border-bottom: none;
-  background: #fff;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.course-wrapper-area2 .nav-tabs .nav-link {
-  background: #fff;
-  background: #023e8a;
-  border: 1px solid #023e8a;
-  padding: 12px 40px;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  color: #fff;
-  width: 100%;
-  border-radius: 0;
-}
-
-.course-wrapper-area2 .nav-tabs li {
-  margin: 22px 0;
-}
-
-.course-wrapper-area2 .gd-left {
-  margin: 10px 0;
-}
-
-.course-wrapper-area2 .gd-left h4 {
-  font-size: 20px;
-}
-
-.course-wrapper-area2 .gd-left .em-bar-big {
-  height: 5px;
-  width: 90px;
-  background: #0077b6c4;
-  position: relative;
-  border-radius: 30px;
-  top: 0;
-}
-
-.course-wrapper-area2 .gd-left .em-bar-big::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: -2.7px;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  background: #023e8a;
-  -webkit-animation: moveBg 5s infinite ease-in-out;
-          animation: moveBg 5s infinite ease-in-out;
-}
-
-.course-wrapper-area2 .gd-left p {
-  margin-top: 20px;
-  font-size: 16px;
-}
-
-.course-wrapper-area2 .title {
-  margin-top: 20px;
-}
-
-.course-wrapper-area2 input {
-  margin-bottom: 20px;
-}
-
-.course-wrapper-area2 .seat {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.course-wrapper-area2 .seat .admission {
-  margin: 0px 0xp 0p;
-  position: relative;
-  left: 45%;
-  top: 25px;
-}
-
-.course-wrapper-area2 .seat .admission p {
-  color: #0077b6;
-}
-
-.course-wrapper-area2 .career {
-  margin-top: 20px;
-}
-
-.course-wrapper-area2 .career ul {
-  margin: 15px 0 35px;
-}
-
-.course-wrapper-area2 .career ul li {
-  position: relative;
-  color: #828893;
-  margin-bottom: 15px;
-  padding-left: 30px;
-}
-
-.course-wrapper-area2 .career ul li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 6px;
-  width: 17px;
-  height: 17px;
-  background: #023e8a;
-  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
 
 /*================================================
-Premium Area CSS
-=================================================*/
-.premium-wrapper-area {
-  padding: 100px 0px 50px 0px;
-}
-
-.premium-wrapper-area .em-bar-big {
-  height: 5px;
-  width: 90px;
-  background: #0077b6c4;
-  position: relative;
-  border-radius: 30px;
-  top: 0;
-  margin: auto;
-}
-
-.premium-wrapper-area .em-bar-big::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: -2.7px;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  background: #023e8a;
-  -webkit-animation: moveBg 5s infinite ease-in-out;
-          animation: moveBg 5s infinite ease-in-out;
-}
-
-.premium-wrapper-area .premium-card {
-  margin-top: 30px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 25px;
-  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  border-radius: 5px;
-}
-
-.premium-wrapper-area .premium-card .enroll {
-  margin-top: 30px;
-}
-
-.premium-wrapper-area .premium-card h4 {
-  font-size: 20px;
-  margin-top: 20px;
-}
-
-.premium-wrapper-area .top {
-  margin-top: 30px;
-}
-
-/*================================================
-Portfolio Area CSS
+17. Portfolio Area CSS
 =================================================*/
 .portfolio-wrapper-area {
-  padding: 100px 0px 50px 0px;
+  padding: 120px 0px 50px 0px;
   background: #f1f0f8;
+}
+.portfolio-newsletter{
+  margin-top: 70px !important;
 }
 
 .portfolio-wrapper-area hr {
@@ -2730,10 +2178,10 @@ Portfolio Area CSS
 }
 
 /*================================================
-Box Area CSS
+18. Box Area CSS
 =================================================*/
 .box-wrapper-area {
-  padding: 100px 0px 100px 0px;
+  padding: 80px 0px 80px 0px;
 }
 
 .box-wrapper-area .process-inner-box {
@@ -2782,12 +2230,24 @@ Box Area CSS
 Blog Content Area CSS
 =================================================*/
 .blog-content-area {
-  padding: 100px 0px 100px 0px;
+  padding: 60px 0px 100px 0px;
+}
+
+
+.content-area {
+  margin-top: 60px;
+  padding-right: 100px;
 }
 
 .blog-content-area .item-content {
-  padding: 38px;
-  margin-top: -75px;
+  margin-top: 30px;
+}
+.pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .blog-content-area .item-content h3 {
@@ -2798,7 +2258,8 @@ Blog Content Area CSS
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: #3d405b;
-  font-size: 28px;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .blog-content-area .item-content p {
@@ -2902,9 +2363,9 @@ Blog Content Area CSS
 
 .blog-content-area .clearfix .item-title > a {
   color: #3d405b;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 1.667;
+  line-height: 26px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -2964,7 +2425,7 @@ Blog Content Area CSS
 
 
 /*================================================
-categories area Area CSS
+19. categories  Area CSS
 =================================================*/
 .categories-wrapper-area {
   padding: 70px 0px 60px 0px;

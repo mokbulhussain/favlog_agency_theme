@@ -14,7 +14,7 @@ $(function() {
         $(this).addClass('active');
     });
         
-    ///////////////////////////////////////////// 
+
     //! CLIENT*
     $('.client-carousel').owlCarousel({
         autoplay: true,
@@ -27,9 +27,15 @@ $(function() {
             0: {
                 items: 1
             },
+            768: {
+              items: 2
+          },
+            992: {
+              items: 3
+          },
 
             1000: {
-                items: 1
+                items: 3
             },
             1200: {
                 items: 3
@@ -78,7 +84,9 @@ $(function() {
           type: 'image'
           // other options
         });
-});
+})(jQuery);	  
+
+// Row javascript
 function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
